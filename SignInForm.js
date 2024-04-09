@@ -60,8 +60,22 @@ const SignInForm = ({ navigation }) => {
         <Text style={{ color: 'white'}}>Sign In</Text>
       </Pressable>
       <Pressable onPress={handleSignUp}>
-        <Text style={{ color: '#A69595', marginTop: 20 }}>New User? Register Now.</Text>
+        <Text style={{ color: 'orange', marginTop: 20 }}>New User? Register Now.</Text>
       </Pressable>
+      <Image 
+        source={require('./assets/bg3x.png')}
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          right: 0,
+          width: '100%',
+          height: '40%',
+          resizeMode: 'cover',
+          zIndex: -1,
+          aspectRatio: 1 / 1,
+          backgroundColor: '#F5F5F5',
+        }}
+      />
     </View>
   );
 };
@@ -80,6 +94,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: '#F5F5F5',
   },
   input: {
     width: '80%',
@@ -88,6 +103,10 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#ccc',
     borderRadius: 5,
+    backgroundColor: 'white',
+    height: 50,
+    borderRadius: 50,
+    paddingLeft: 20,
   },
   buttonContainer: {
     flexDirection: 'row',
