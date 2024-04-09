@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text, Alert, Image, Pressable } from 'react-native';
 import 'react-native-get-random-values';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
+console.log('jayson');
 const SignUpForm = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
