@@ -13,7 +13,7 @@ const Dashboard = ({ navigation }) => {
       <Image source={require('./assets/logo.png')} style={styles.logo} />
       <View style={styles.buttonContainer}>
         <View>
-          <Text style={styles.user}>Welcome: {user?.email}</Text>
+          <Text style={styles.user}>Welcome Warrior: {user?.email}</Text>
         </View>
         <Pressable style={styles.button} onPress={() => navigation.navigate('Chatbot')} >
           <Text style={{ color: 'white'}}>Chatbot</Text>

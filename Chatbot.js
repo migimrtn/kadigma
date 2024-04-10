@@ -39,7 +39,7 @@ const Chatbot = () => {
   }
 
   useEffect(() => {
-    setList(prev => [...prev, {message: 'Hello, how can i help you! Im Chatbot', type: 'bot'}])
+    setList(prev => [...prev, {message: 'Hello, how can i help you! I am Kadigma Bot', type: 'bot'}])
   }, [])
 
   return (
