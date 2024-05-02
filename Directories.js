@@ -10,8 +10,7 @@ const Directories = ({ navigation }) => {
   return (
     
     <View style={styles.container}>
-      <Image source={require('./assets/logo.png')} style={styles.logo} />
-      <Image source={require('./assets/directories.png')} style={styles.directoryImage} />
+      <Image source={require('./assets/directory2.png')} style={styles.directoryImage} />
       
     </View>
   )
@@ -20,11 +19,11 @@ const Directories = ({ navigation }) => {
 export default Directories
 
 const styles = StyleSheet.create({
-  logo: {
-    aspectRatio: 4 / 3,
-    height: 150,
+  //logo: {
+ //   aspectRatio: 4 / 3,
+ //   height: 100,
     
-  },
+  //},
   title: {
     fontSize: 20,
     fontWeight: 'bold',
@@ -38,8 +37,8 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   directoryImage: {
-    height: '80%',
-    width: '100%',
+    height: '120%',
+    width: '105%',
     resizeMode: 'contain',
   }
 });

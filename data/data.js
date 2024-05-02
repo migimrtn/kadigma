@@ -12,20 +12,20 @@ export const trigger = [
   //5
   ["gymnasium", "gym", "where is the gym", "where is gym", "how to go to to gym", "locate gym"],
   //6
-  ["student's affair office building", "student's affair office", "sao", "sao building", "where is the student's affair office", "where is sao", "how to go to to sao", "locate sao"],
+  ["student's affair office building", "student's affair office", "sao", "sao building", "where is the student's affair office", "where is sao", "how to go to sao", "locate sao"],
   //7
   ["college enrollment", "how to enroll for college", "enrollment for college student"],
 
   ["form 137", "how to get academic forms", "academic forms", "tor", "get tor", "get form 137", "how to get form 137", "how to get tor"],
 
-  ["where is the engineering office", "engineering office", "locate engineering office", "how to go to engineering office", "where is the engineering office", "where is engineering office"]
+  ["where is the engineering office", "engineering office", "locate engineering office", "how to go to engineering office", "where is the engineering office", "where is engineering office"],
   
   ["how to apply for refund", "how to refund excess balance", "refund", "refund balance"]
   ];
   
   export  const reply = [
   //0 
-  ["Hello!", "Hi!", "Hey!", "Hi there!"], 
+  ["Hello, What can I do for you?", "Hi, How can I help you?", "Hey, Is there something I can do for you?", "Hi there, How can I assist you?"], 
   //1
   ["The Engineering Building is located at the east side of the TYK building and west side of the LCT Building. Please refer to the University Map"],
   //2
@@ -43,7 +43,7 @@ export const trigger = [
 
   ["To apply form requests, please visit the DRRM Office located at the Administration Building. Please refer to the University Map"],
 
-  ["The Engineering Office is located at the 1F of the Engineering Building. Please refer to the University Map"]
+  ["The Engineering Office is located at the 1F of the Engineering Building. Please refer to the University Map"],
 
   ["To apply for refund, please go to your UE Student Portal -> Online Transactions -> Apply for Refund. Click the Apply for Refund Button below and ensure that you have extra balance in your account. Follow the link to access the refund process: https://www.ue.edu.ph/portals/sp/refund"]
   ];

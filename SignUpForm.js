@@ -31,7 +31,7 @@ const SignUpForm = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/logo.png')} style={styles.logo} />
+      <Image source={require('./assets/Kadigma5by2.png')} style={styles.logo} />
       <Text style={styles?.title}>Sign Up</Text>
       <TextInput
         style={styles.input}
@@ -52,20 +52,20 @@ const SignUpForm = ({ navigation }) => {
         <Text style={{ color: 'white'}}>Submit</Text>
       </Pressable>
       <Pressable onPress={handleLogin}>
-        <Text style={{ color: 'orange', marginTop: 20 }}>Already have an account? Sign In Here.</Text>
+        <Text style={{ color: 'gray', marginTop: 20 }}>Already have an account? Sign In Here.</Text>
       </Pressable>
       <Image 
-        source={require('./assets/bg3x.png')}
+        source={require('./assets/bg app.png')}
         style={{
           position: 'absolute',
           bottom: 0,
           right: 0,
           width: '100%',
-          height: '40%',
+          height: '100%',
           resizeMode: 'cover',
           zIndex: -1,
-          aspectRatio: 1 / 1,
-          backgroundColor: '#F5F5F5',
+        //  aspectRatio: 1 / 1,
+          backgroundColor: 'white',
         }}
       />
     </View>
@@ -74,13 +74,14 @@ const SignUpForm = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   logo: {
-    aspectRatio: 4 / 3,
-    height: 200,
+    aspectRatio: 5 / 2,
+    height: 170,
   },
   title: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 20,
+    marginTop: -20,
   },
   container: {
     flex: 1,
@@ -104,9 +105,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    width: '80%',
-    backgroundColor: '#D10003',
-    borderRadius: 5,
+    width: '30%',
+    backgroundColor: '#ff0000',
+    borderRadius: 50,
     height: 40,
   }
 });
